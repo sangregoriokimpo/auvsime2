@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot name="auv">
+
+    <gazebo>
+        <plugin name="wasd_body_thrust_plugin" filename="libwasd_body_thrust_plugin.so">
+        <link_name>cube_link</link_name>
+        <topic>auve1/force_body</topic>
+        <hold_ms>-1</hold_ms>
+        <scale>1.0</scale>
+        <force_scale>1.0</force_scale>
+        <torque_scale>1.0</torque_scale>
+        </plugin>
+    </gazebo>
+    
+
+  <!-- A simple cube link -->
+  <link name="cube_link">
+    <visual>
+      <geometry>
+        <box size="1 1 1"/>   <!-- 1m x 1m x 1m cube -->
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>  <!-- Blue -->
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.166" iyy="0.166" izz="0.166" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+  </link>
+
+</robot>

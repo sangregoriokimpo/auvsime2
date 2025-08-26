@@ -1,0 +1,3 @@
+/home/sangregorioquimpo/auve2_ws/install/auve1_description/lib/libwasd_body_thrust_plugin.so
+/home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/wasd_body_thrust_pluginTargetsExport.cmake
+/home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/wasd_body_thrust_pluginTargetsExport-noconfig.cmake

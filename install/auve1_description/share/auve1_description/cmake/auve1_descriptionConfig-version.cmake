@@ -1,0 +1,1 @@
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/ament_cmake_core/auve1_descriptionConfig-version.cmake

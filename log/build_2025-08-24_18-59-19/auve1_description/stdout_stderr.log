@@ -1,0 +1,28 @@
+[100%] Built target wasd_body_thrust_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auve1_description/lib/libwasd_body_thrust_plugin.so
+-- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auve1_description/lib/auve1_description/wasd_teleop.py
+-- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/urdf
+-- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/meshes
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/launch
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/environment/library_path.sh
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/environment/library_path.dsv
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/ament_index/resource_index/package_run_dependencies/auve1_description
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/ament_index/resource_index/parent_prefix_path/auve1_description
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/environment/ament_prefix_path.sh
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/environment/ament_prefix_path.dsv
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/environment/path.sh
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/environment/path.dsv
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/local_setup.bash
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/local_setup.sh
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/local_setup.zsh
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/local_setup.dsv
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/package.dsv
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/ament_index/resource_index/packages/auve1_description
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/wasd_body_thrust_pluginTargetsExport.cmake
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/wasd_body_thrust_pluginTargetsExport-noconfig.cmake
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/auve1_descriptionConfig.cmake
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/cmake/auve1_descriptionConfig-version.cmake
+-- Installing: /home/sangregorioquimpo/auve2_ws/install/auve1_description/share/auve1_description/package.xml

@@ -1,0 +1,10 @@
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/uninstall.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/auve1_description_uninstall.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/wasd_body_thrust_plugin.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/test.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/edit_cache.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/rebuild_cache.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/list_install_components.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/install.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/install/local.dir
+/home/sangregorioquimpo/auve2_ws/build/auve1_description/CMakeFiles/install/strip.dir

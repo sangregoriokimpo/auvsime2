@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "ROS2-Jazzy",
+      "includePath": [
+        "/opt/ros/jazzy/include/**",
+        "${workspaceFolder}/install/**",
+        "${workspaceFolder}/src/**",
+        "/usr/include/gz/**",
+        "/usr/include/**"
+      ],
+      "compilerPath": "/usr/bin/cc",
+      "cStandard": "c17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

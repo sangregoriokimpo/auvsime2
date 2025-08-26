@@ -1,0 +1,4 @@
+source;share/auve1_description/local_setup.bash
+source;share/auve1_description/local_setup.dsv
+source;share/auve1_description/local_setup.sh
+source;share/auve1_description/local_setup.zsh

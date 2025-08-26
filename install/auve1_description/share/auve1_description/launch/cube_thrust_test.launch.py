@@ -1,0 +1,1 @@
+/home/sangregorioquimpo/auve2_ws/src/auv_description/launch/cube_thrust_test.launch.py
