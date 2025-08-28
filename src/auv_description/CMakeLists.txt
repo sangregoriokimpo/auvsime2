@@ -17,14 +17,10 @@ find_package(gz-sim8 REQUIRED)
 find_package(gz-plugin2 REQUIRED)
 find_package(gz-math7 REQUIRED)
 
-
-
-
-# --- Plugin library ---
+# --- Plugin: WASD body thrust ---
 add_library(wasd_body_thrust_plugin SHARED
   src/wasd_body_thrust_plugin.cpp
 )
-
 ament_target_dependencies(wasd_body_thrust_plugin
   rclcpp
   geometry_msgs
@@ -33,28 +29,40 @@ ament_target_dependencies(wasd_body_thrust_plugin
   gz-math7
 )
 
-# Make sure the .so is discoverable by Gazebo/ROS
 install(TARGETS wasd_body_thrust_plugin
   EXPORT wasd_body_thrust_pluginTargets
   LIBRARY DESTINATION lib
 )
 
+# --- Plugin: Simple buoyancy ---
+add_library(simple_buoyancy SHARED
+  src/simple_buoyancy.cc
+)
+ament_target_dependencies(simple_buoyancy
+  rclcpp
+  geometry_msgs
+  gz-sim8
+  gz-plugin2
+  gz-math7
+)
 
-
+install(TARGETS simple_buoyancy
+  EXPORT simple_buoyancyTargets
+  LIBRARY DESTINATION lib
+)
 
 # --- Keyboard teleop script ---
-# (Put the file at: scripts/wasd_teleop.py and make it executable)
 install(PROGRAMS
   scripts/wasd_teleop.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# --- Share description assets (your original lines) ---
+# --- Share description assets ---
 install(DIRECTORY urdf meshes launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
-# --- Testing (unchanged) ---
+# --- Testing ---
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
@@ -65,5 +73,7 @@ endif()
 ament_export_targets(wasd_body_thrust_pluginTargets)
 ament_export_libraries(wasd_body_thrust_plugin)
 
+ament_export_targets(simple_buoyancyTargets)
+ament_export_libraries(simple_buoyancy)
 
 ament_package()

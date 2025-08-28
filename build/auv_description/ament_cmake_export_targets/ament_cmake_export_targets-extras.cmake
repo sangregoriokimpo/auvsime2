@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_targets/cmake/ament_cmake_export_targets-extras.cmake.in
 
-set(_exported_targets "wasd_body_thrust_pluginTargets")
+set(_exported_targets "wasd_body_thrust_pluginTargets;simple_buoyancyTargets")
 
 # include all exported targets
 if(NOT _exported_targets STREQUAL "")

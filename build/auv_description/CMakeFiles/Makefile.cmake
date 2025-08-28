@@ -1043,4 +1043,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/auv_description_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/wasd_body_thrust_plugin.dir/DependInfo.cmake"
+  "CMakeFiles/simple_buoyancy.dir/DependInfo.cmake"
   )

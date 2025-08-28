@@ -1,6 +1,7 @@
 /home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/uninstall.dir
 /home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/auv_description_uninstall.dir
 /home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/wasd_body_thrust_plugin.dir
+/home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/simple_buoyancy.dir
 /home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/test.dir
 /home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/edit_cache.dir
 /home/sangregorioquimpo/auve2_ws/build/auv_description/CMakeFiles/rebuild_cache.dir

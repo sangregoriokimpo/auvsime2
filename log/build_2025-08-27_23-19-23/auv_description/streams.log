@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/sangregorioquimpo/auve2_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sangregorioquimpo/auve2_ws/build/auv_description -- -j16 -l16
+[0.073s] [100%] Built target wasd_body_thrust_plugin
+[0.085s] Invoked command in '/home/sangregorioquimpo/auve2_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/sangregorioquimpo/auve2_ws/build/auv_description -- -j16 -l16
+[0.096s] Invoking command in '/home/sangregorioquimpo/auve2_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sangregorioquimpo/auve2_ws/build/auv_description
+[0.103s] -- Install configuration: ""
+[0.103s] -- Execute custom install script
+[0.103s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/auv_description/wasd_teleop.py
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/cube.urdf
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test.launch.py
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/test_world.sdf
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/water_world.sdf
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.sh
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.dsv
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/parent_prefix_path/auv_description
+[0.104s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.sh
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.dsv
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/path.sh
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/path.dsv
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.bash
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.sh
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.zsh
+[0.105s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.dsv
+[0.105s] -- Symlinking: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/package.dsv
+[0.115s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/packages/auv_description
+[0.115s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/ament_cmake_export_targets-extras.cmake
+[0.115s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/ament_cmake_export_libraries-extras.cmake
+[0.115s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig.cmake
+[0.115s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig-version.cmake
+[0.115s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/package.xml
+[0.115s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/libwasd_body_thrust_plugin.so
+[0.116s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/wasd_body_thrust_pluginTargetsExport.cmake
+[0.116s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/wasd_body_thrust_pluginTargetsExport-noconfig.cmake
+[0.117s] Invoked command in '/home/sangregorioquimpo/auve2_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/sangregorioquimpo/auve2_ws/build/auv_description

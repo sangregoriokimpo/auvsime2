@@ -1,0 +1,242 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"include",
+			"find_package",
+			"ament_cmake_symlink_install_targets",
+			"ament_execute_extensions",
+			"ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 50,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 50,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 66,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 18
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 23
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"scriptFile" : "/home/sangregorioquimpo/auve2_ws/build/auv_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libwasd_body_thrust_plugin.so"
+			],
+			"targetId" : "wasd_body_thrust_plugin::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libsimple_buoyancy.so"
+			],
+			"targetId" : "simple_buoyancy::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/auv_description/cmake",
+			"exportName" : "wasd_body_thrust_pluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "wasd_body_thrust_plugin::@6890427a1f51a3e7e1df",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/44ee46e8c511f0b9ff643f59b8bcd2c5/wasd_body_thrust_pluginTargetsExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/auv_description/cmake",
+			"exportName" : "simple_buoyancyTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "simple_buoyancy::@6890427a1f51a3e7e1df",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/44ee46e8c511f0b9ff643f59b8bcd2c5/simple_buoyancyTargetsExport.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

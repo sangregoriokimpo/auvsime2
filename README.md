@@ -14,3 +14,13 @@ ros2 run auv_description wasd_teleop.py   --ros-args -p topic:=/auve1/force_body
 ```
 
 force, decay and rate_hz can be edited as you see fit, just change the number in the teleop launch command.
+
+Some commands I used to test stuff out:
+
+```
+ros2 run auv_description wasd_teleop.py   --ros-args     -p force_topic:=/auve1/force_body     -p force:=100.0     -p decay:=1.0     -p rate_hz:=12000000000.0 -p torque:=1.0
+```
+
+```
+ros2 run auv_description wasd_teleop.py   --ros-args     -p force_topic:=/auve1/force_body     -p force:=500.0     -p decay:=1.0     -p rate_hz:=1200000000.0
+```

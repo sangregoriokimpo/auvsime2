@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_libraries/cmake/template/ament_cmake_export_libraries.cmake.in
 
-set(_exported_libraries "wasd_body_thrust_plugin")
+set(_exported_libraries "wasd_body_thrust_plugin;simple_buoyancy")
 set(_exported_library_names "")
 
 # populate auv_description_LIBRARIES

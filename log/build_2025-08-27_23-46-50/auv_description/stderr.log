@@ -1,0 +1,15 @@
+[31mCMake Error at CMakeLists.txt:31 (target_link_libraries):
+  Target "wasd_body_thrust_plugin" links to:
+
+    sdformat::sdformat14
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

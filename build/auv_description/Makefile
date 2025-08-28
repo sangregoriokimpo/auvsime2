@@ -210,6 +210,43 @@ wasd_body_thrust_plugin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasd_body_thrust_plugin.dir/build.make CMakeFiles/wasd_body_thrust_plugin.dir/build
 .PHONY : wasd_body_thrust_plugin/fast
 
+#=============================================================================
+# Target rules for targets named simple_buoyancy
+
+# Build rule for target.
+simple_buoyancy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_buoyancy
+.PHONY : simple_buoyancy
+
+# fast build rule for target.
+simple_buoyancy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_buoyancy.dir/build.make CMakeFiles/simple_buoyancy.dir/build
+.PHONY : simple_buoyancy/fast
+
+src/simple_buoyancy.o: src/simple_buoyancy.cc.o
+.PHONY : src/simple_buoyancy.o
+
+# target to build an object file
+src/simple_buoyancy.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_buoyancy.dir/build.make CMakeFiles/simple_buoyancy.dir/src/simple_buoyancy.cc.o
+.PHONY : src/simple_buoyancy.cc.o
+
+src/simple_buoyancy.i: src/simple_buoyancy.cc.i
+.PHONY : src/simple_buoyancy.i
+
+# target to preprocess a source file
+src/simple_buoyancy.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_buoyancy.dir/build.make CMakeFiles/simple_buoyancy.dir/src/simple_buoyancy.cc.i
+.PHONY : src/simple_buoyancy.cc.i
+
+src/simple_buoyancy.s: src/simple_buoyancy.cc.s
+.PHONY : src/simple_buoyancy.s
+
+# target to generate assembly for a file
+src/simple_buoyancy.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_buoyancy.dir/build.make CMakeFiles/simple_buoyancy.dir/src/simple_buoyancy.cc.s
+.PHONY : src/simple_buoyancy.cc.s
+
 src/wasd_body_thrust_plugin.o: src/wasd_body_thrust_plugin.cpp.o
 .PHONY : src/wasd_body_thrust_plugin.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... auv_description_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_buoyancy"
 	@echo "... wasd_body_thrust_plugin"
+	@echo "... src/simple_buoyancy.o"
+	@echo "... src/simple_buoyancy.i"
+	@echo "... src/simple_buoyancy.s"
 	@echo "... src/wasd_body_thrust_plugin.o"
 	@echo "... src/wasd_body_thrust_plugin.i"
 	@echo "... src/wasd_body_thrust_plugin.s"

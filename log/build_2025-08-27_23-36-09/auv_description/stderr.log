@@ -1,0 +1,11 @@
+[01m[K/home/sangregorioquimpo/auve2_ws/src/auv_description/src/buoyancy_runtime.cc:[m[K In member function ‘[01m[Kvirtual void auv_buoyancy::BuoyancyRuntime::[01;32m[KConfigure[m[K(const gz::sim::v8::Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/sangregorioquimpo/auve2_ws/src/auv_description/src/buoyancy_runtime.cc:67:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgz::sim::v8::Entity maybeLink[m[K’
+   67 |     gz::sim::Entity [01;31m[KmaybeLink[m[K = model_.LinkByName(ecm, linkName_);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sangregorioquimpo/auve2_ws/src/auv_description/src/buoyancy_runtime.cc:66:10:[m[K [01;36m[Knote: [m[K‘[01m[Klong unsigned int maybeLink[m[K’ previously declared here
+   66 |     auto [01;36m[KmaybeLink[m[K = model_.LinkByName(ecm, linkName_);
+      |          [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/buoyancy_runtime.dir/build.make:76: CMakeFiles/buoyancy_runtime.dir/src/buoyancy_runtime.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/buoyancy_runtime.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

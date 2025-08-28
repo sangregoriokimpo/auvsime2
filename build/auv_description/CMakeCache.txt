@@ -562,6 +562,9 @@ geometry_msgs_DIR:PATH=/opt/ros/jazzy/share/geometry_msgs/cmake
 //The directory containing a CMake configuration file for gz-cmake3.
 gz-cmake3_DIR:PATH=/opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3
 
+//The directory containing a CMake configuration file for gz-cmake4.
+gz-cmake4_DIR:PATH=/usr/share/cmake/gz-cmake4
+
 //The directory containing a CMake configuration file for gz-common5-av.
 gz-common5-av_DIR:PATH=/opt/ros/jazzy/opt/gz_common_vendor/lib/cmake/gz-common5-av
 
@@ -597,6 +600,9 @@ gz-math7-eigen3_DIR:PATH=/opt/ros/jazzy/opt/gz_math_vendor/lib/cmake/gz-math7-ei
 
 //The directory containing a CMake configuration file for gz-math7.
 gz-math7_DIR:PATH=/opt/ros/jazzy/opt/gz_math_vendor/lib/cmake/gz-math7
+
+//The directory containing a CMake configuration file for gz-math8.
+gz-math8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math8
 
 //The directory containing a CMake configuration file for gz-msgs10.
 gz-msgs10_DIR:PATH=/opt/ros/jazzy/opt/gz_msgs_vendor/lib/cmake/gz-msgs10
@@ -705,6 +711,9 @@ gz-utils2-cli_DIR:PATH=/opt/ros/jazzy/opt/gz_utils_vendor/lib/cmake/gz-utils2-cl
 
 //The directory containing a CMake configuration file for gz-utils2.
 gz-utils2_DIR:PATH=/opt/ros/jazzy/opt/gz_utils_vendor/lib/cmake/gz-utils2
+
+//The directory containing a CMake configuration file for gz-utils3.
+gz-utils3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils3
 
 //The directory containing a CMake configuration file for jsoncpp.
 jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
@@ -846,6 +855,9 @@ sdformat14_DIR:PATH=/opt/ros/jazzy/opt/sdformat_vendor/lib/cmake/sdformat14
 
 //The directory containing a CMake configuration file for service_msgs.
 service_msgs_DIR:PATH=/opt/ros/jazzy/share/service_msgs/cmake
+
+//Dependencies for the target
+simple_buoyancy_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;
 
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=/opt/ros/jazzy/share/statistics_msgs/cmake

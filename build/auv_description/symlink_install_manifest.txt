@@ -1,6 +1,7 @@
 /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/auv_description/wasd_teleop.py
 /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/cube.urdf
 /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test.launch.py
+/home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test_water.launch.py
 /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/test_world.sdf
 /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/water_world.sdf
 /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.sh

@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (auv_description) JobQueued: {'identifier': 'auv_description', 'dependencies': OrderedDict()}
+[0.000194] (auv_description) JobStarted: {'identifier': 'auv_description'}
+[0.008191] (auv_description) JobProgress: {'identifier': 'auv_description', 'progress': 'cmake'}
+[0.008845] (auv_description) JobProgress: {'identifier': 'auv_description', 'progress': 'build'}
+[0.009292] (auv_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sangregorioquimpo/auve2_ws/build/auv_description', '--', '-j16', '-l16'], 'cwd': '/home/sangregorioquimpo/auve2_ws/build/auv_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3052-1-sangregorioquimpo-Laptop-16-AMD-Ryzen-7040-Series_TIME73384', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sangregorioquimpo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sangregorioquimpo/auve2_ws/install/auve1_description/lib:/home/sangregorioquimpo/auve2_ws/install/auv_description/lib:/home/sangregorioquimpo/auv_ws/install/stonefish/lib:/home/sangregorioquimpo/auv_ws/install/stonefish_ros2/lib:/home/sangregorioquimpo/auv_ws/install/Stonefish/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/sangregorioquimpo', 'OLDPWD': '/home/sangregorioquimpo/auve2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '2767', 'SYSTEMD_EXEC_PID': '3052', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5880', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sangregorioquimpo/auve2_ws/install:/home/sangregorioquimpo/sast_ws/install:/home/sangregorioquimpo/auv_ws/install:/home/sangregorioquimpo/ackermann_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sangregorioquimpo', 'JOURNAL_STREAM': '9:24329', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sangregorioquimpo', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/sangregorioquimpo/mentorpi_test_ws/install/mentorpia1_simulator/share/mentorpia1_simulator', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/sangregorioquimpo/auve2_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/sangregorioquimpo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sangregorioquimpo-Laptop-16-AMD-Ryzen-7040-Series:@/tmp/.ICE-unix/3016,unix/sangregorioquimpo-Laptop-16-AMD-Ryzen-7040-Series:/tmp/.ICE-unix/3016', 'INVOCATION_ID': 'e6abf1af85f7429e9c8aa54dcacea48e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NJGVB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sangregorioquimpo/auve2_ws/install/auve1_description:/home/sangregorioquimpo/auve2_ws/install/auv_description:/home/sangregorioquimpo/sast_ws/install/four_wheeled_vehicle:/home/sangregorioquimpo/sast_ws/install/example_pkg:/home/sangregorioquimpo/ackermann_ws/install/gazebo_ackermann_steering_vehicle:/home/sangregorioquimpo/auv_ws/install/stonefish_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f3b2ae70-c997-4a25-aeb9-e8a27d93b975', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/sangregorioquimpo/auve2_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sangregorioquimpo/auve2_ws/build/auv_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sangregorioquimpo/auv_ws/install/stonefish_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/sangregorioquimpo/auve2_ws/install/auve1_description:/home/sangregorioquimpo/auve2_ws/install/auv_description:/home/sangregorioquimpo/sast_ws/install/four_wheeled_vehicle:/home/sangregorioquimpo/sast_ws/install/example_pkg:/home/sangregorioquimpo/ackermann_ws/install/gazebo_ackermann_steering_vehicle:/home/sangregorioquimpo/auv_ws/install/stonefish_ros2:/home/sangregorioquimpo/auv_ws/install/Stonefish:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.036536] (auv_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099418] (-) TimerEvent: {}
+[0.187527] (auv_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.191822] (auv_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.199530] (-) TimerEvent: {}
+[0.210224] (auv_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.215425] (auv_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.222306] (auv_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.230219] (auv_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.267844] (auv_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.268762] (auv_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299630] (-) TimerEvent: {}
+[0.317975] (auv_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.358227] (auv_description) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.377498] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.9.0\n'}
+[0.380873] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.381100] (auv_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[0.381358] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.386062] (auv_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.399737] (-) TimerEvent: {}
+[0.402113] (auv_description) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[0.441886] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[0.442184] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.442388] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.442506] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.443078] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.443175] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.443229] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.443456] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[0.443548] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.444364] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[0.444456] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.444657] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.444918] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[0.445098] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[0.445199] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.445451] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.445676] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[0.445767] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.446234] (auv_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[0.446319] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[0.473957] (auv_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.478534] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.496446] (auv_description) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[0.499842] (-) TimerEvent: {}
+[0.551468] (auv_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.567567] (auv_description) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[0.599958] (-) TimerEvent: {}
+[0.607257] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.607553] (auv_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[0.607675] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[0.624937] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.625172] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[0.632259] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[0.632548] (auv_description) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.1\n'}
+[0.632666] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[0.632809] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[0.633159] (auv_description) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.1\n'}
+[0.633368] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[0.633709] (auv_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[0.633909] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[0.633997] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.634171] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.634272] (auv_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.634321] (auv_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.640838] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[0.641085] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[0.641252] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[0.646369] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.662314] (auv_description) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[0.700064] (-) TimerEvent: {}
+[0.707135] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[0.722091] (auv_description) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[0.779946] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[0.797001] (auv_description) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[0.800167] (-) TimerEvent: {}
+[0.845866] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[0.863860] (auv_description) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[0.900285] (-) TimerEvent: {}
+[0.912495] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[0.928836] (auv_description) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[0.967452] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[0.967697] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[0.967861] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[0.967982] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[0.968280] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[0.968494] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[0.968570] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[0.968757] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[0.970095] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[0.970375] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[0.970471] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[0.970727] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[0.970960] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[0.971054] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[0.971607] (auv_description) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[0.971690] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[1.000373] (-) TimerEvent: {}
+[1.009917] (auv_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.026352] (auv_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.081095] (auv_description) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[1.097762] (auv_description) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[1.100445] (-) TimerEvent: {}
+[1.148387] (auv_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.166191] (auv_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.200556] (-) TimerEvent: {}
+[1.206330] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.206623] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.206780] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.206993] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.207131] (auv_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.207195] (auv_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.213877] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.214121] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[1.214295] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.214801] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.215042] (auv_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.215627] (auv_description) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[1.215690] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[1.238169] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.238417] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.238611] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.238890] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.239126] (auv_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.239370] (auv_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.239582] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[1.239710] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.239831] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.239913] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.240000] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[1.240254] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.2\n'}
+[1.240348] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[1.241261] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.241347] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.241556] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.241641] (auv_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.241702] (auv_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.247870] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.248044] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.248169] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[1.248300] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[1.248393] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[1.248520] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.248885] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.249439] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.249517] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.249737] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.249816] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[1.250036] (auv_description) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[1.250363] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.250912] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.252863] (auv_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.263010] (auv_description) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.5.0\n'}
+[1.263282] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[1.263416] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.263547] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.263673] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.263890] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.264522] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[1.264759] (auv_description) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.5.0\n'}
+[1.264844] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[1.265084] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.265316] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[1.265540] (auv_description) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.5.0\n'}
+[1.265630] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[1.265839] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.266102] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[1.266340] (auv_description) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.5.0\n'}
+[1.266430] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[1.266645] (auv_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[1.267193] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.267276] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[1.285261] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.285492] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.285793] (auv_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.286016] (auv_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.286279] (auv_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.286504] (auv_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[1.286811] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[1.287069] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[1.287166] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[1.287387] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[1.287623] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[1.287689] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[1.287943] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[1.288176] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[1.288268] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[1.288520] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[1.288746] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[1.288840] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[1.289109] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[1.289336] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[1.289424] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[1.289680] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[1.289911] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[1.289997] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[1.290266] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[1.290485] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[1.290567] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[1.290825] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[1.291039] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[1.291138] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[1.291399] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[1.291616] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[1.291705] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[1.291921] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.292018] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[1.300616] (-) TimerEvent: {}
+[1.311322] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.311552] (auv_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.311792] (auv_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.312024] (auv_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.312266] (auv_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.312493] (auv_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[1.312615] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[1.312865] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[1.312974] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[1.313755] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[1.313805] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[1.314012] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[1.314108] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[1.314361] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.314696] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[1.314945] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[1.315036] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[1.315263] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.315569] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[1.315800] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[1.315896] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[1.316112] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.316430] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[1.316665] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[1.316760] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[1.317046] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[1.317299] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[1.317391] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[1.317714] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[1.317914] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[1.318001] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[1.318221] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.318526] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[1.318754] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[1.318842] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[1.319048] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.319369] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[1.319592] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[1.319682] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[1.319896] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.320476] (auv_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[1.320724] (auv_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[1.320817] (auv_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[1.321445] (auv_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.321669] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.321909] (auv_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.339741] (auv_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.339976] (auv_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[1.342420] (auv_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.400736] (-) TimerEvent: {}
+[1.406257] (auv_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.406415] (auv_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.406465] (auv_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.406589] (auv_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.406629] (auv_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.406958] (auv_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.407205] (auv_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.408128] (auv_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.408175] (auv_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.408392] (auv_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.409932] (auv_description) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.431537] (auv_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.436088] (auv_description) StdoutLine: {'line': b'-- Build files have been written to: /home/sangregorioquimpo/auve2_ws/build/auv_description\n'}
+[1.475497] (auv_description) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_buoyancy.dir/src/simple_buoyancy.cc.o\x1b[0m\n'}
+[1.485139] (auv_description) StdoutLine: {'line': b'[ 75%] Built target wasd_body_thrust_plugin\n'}
+[1.500838] (-) TimerEvent: {}
+[1.601107] (-) TimerEvent: {}
+[1.701387] (-) TimerEvent: {}
+[1.801701] (-) TimerEvent: {}
+[1.901971] (-) TimerEvent: {}
+[2.002265] (-) TimerEvent: {}
+[2.102567] (-) TimerEvent: {}
+[2.202832] (-) TimerEvent: {}
+[2.303153] (-) TimerEvent: {}
+[2.403464] (-) TimerEvent: {}
+[2.503757] (-) TimerEvent: {}
+[2.604011] (-) TimerEvent: {}
+[2.704291] (-) TimerEvent: {}
+[2.804606] (-) TimerEvent: {}
+[2.904895] (-) TimerEvent: {}
+[3.005150] (-) TimerEvent: {}
+[3.105428] (-) TimerEvent: {}
+[3.205702] (-) TimerEvent: {}
+[3.305906] (-) TimerEvent: {}
+[3.406232] (-) TimerEvent: {}
+[3.506519] (-) TimerEvent: {}
+[3.606773] (-) TimerEvent: {}
+[3.707025] (-) TimerEvent: {}
+[3.807310] (-) TimerEvent: {}
+[3.907568] (-) TimerEvent: {}
+[4.007835] (-) TimerEvent: {}
+[4.108197] (-) TimerEvent: {}
+[4.208475] (-) TimerEvent: {}
+[4.308747] (-) TimerEvent: {}
+[4.409030] (-) TimerEvent: {}
+[4.509353] (-) TimerEvent: {}
+[4.609650] (-) TimerEvent: {}
+[4.709952] (-) TimerEvent: {}
+[4.810268] (-) TimerEvent: {}
+[4.815990] (auv_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_buoyancy.so\x1b[0m\n'}
+[4.910391] (-) TimerEvent: {}
+[5.010703] (-) TimerEvent: {}
+[5.011308] (auv_description) StdoutLine: {'line': b'[100%] Built target simple_buoyancy\n'}
+[5.023990] (auv_description) CommandEnded: {'returncode': 0}
+[5.024785] (auv_description) JobProgress: {'identifier': 'auv_description', 'progress': 'install'}
+[5.034172] (auv_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sangregorioquimpo/auve2_ws/build/auv_description'], 'cwd': '/home/sangregorioquimpo/auve2_ws/build/auv_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3052-1-sangregorioquimpo-Laptop-16-AMD-Ryzen-7040-Series_TIME73384', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sangregorioquimpo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sangregorioquimpo/auve2_ws/install/auve1_description/lib:/home/sangregorioquimpo/auve2_ws/install/auv_description/lib:/home/sangregorioquimpo/auv_ws/install/stonefish/lib:/home/sangregorioquimpo/auv_ws/install/stonefish_ros2/lib:/home/sangregorioquimpo/auv_ws/install/Stonefish/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/sangregorioquimpo', 'OLDPWD': '/home/sangregorioquimpo/auve2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '2767', 'SYSTEMD_EXEC_PID': '3052', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5880', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sangregorioquimpo/auve2_ws/install:/home/sangregorioquimpo/sast_ws/install:/home/sangregorioquimpo/auv_ws/install:/home/sangregorioquimpo/ackermann_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sangregorioquimpo', 'JOURNAL_STREAM': '9:24329', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sangregorioquimpo', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/sangregorioquimpo/mentorpi_test_ws/install/mentorpia1_simulator/share/mentorpia1_simulator', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/sangregorioquimpo/auve2_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/sangregorioquimpo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sangregorioquimpo-Laptop-16-AMD-Ryzen-7040-Series:@/tmp/.ICE-unix/3016,unix/sangregorioquimpo-Laptop-16-AMD-Ryzen-7040-Series:/tmp/.ICE-unix/3016', 'INVOCATION_ID': 'e6abf1af85f7429e9c8aa54dcacea48e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NJGVB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sangregorioquimpo/auve2_ws/install/auve1_description:/home/sangregorioquimpo/auve2_ws/install/auv_description:/home/sangregorioquimpo/sast_ws/install/four_wheeled_vehicle:/home/sangregorioquimpo/sast_ws/install/example_pkg:/home/sangregorioquimpo/ackermann_ws/install/gazebo_ackermann_steering_vehicle:/home/sangregorioquimpo/auv_ws/install/stonefish_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f3b2ae70-c997-4a25-aeb9-e8a27d93b975', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/sangregorioquimpo/auve2_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sangregorioquimpo/auve2_ws/build/auv_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sangregorioquimpo/auv_ws/install/stonefish_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/sangregorioquimpo/auve2_ws/install/auve1_description:/home/sangregorioquimpo/auve2_ws/install/auv_description:/home/sangregorioquimpo/sast_ws/install/four_wheeled_vehicle:/home/sangregorioquimpo/sast_ws/install/example_pkg:/home/sangregorioquimpo/ackermann_ws/install/gazebo_ackermann_steering_vehicle:/home/sangregorioquimpo/auv_ws/install/stonefish_ros2:/home/sangregorioquimpo/auv_ws/install/Stonefish:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.041557] (auv_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.041862] (auv_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.042015] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/auv_description/wasd_teleop.py\n'}
+[5.042243] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/cube.urdf\n'}
+[5.042434] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test.launch.py\n'}
+[5.042534] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test_water.launch.py\n'}
+[5.042625] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/test_world.sdf\n'}
+[5.042713] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/water_world.sdf\n'}
+[5.042817] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.sh\n'}
+[5.042877] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.dsv\n'}
+[5.042975] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description\n'}
+[5.043088] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/parent_prefix_path/auv_description\n'}
+[5.043183] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.sh\n'}
+[5.043266] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.dsv\n'}
+[5.043351] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/path.sh\n'}
+[5.043438] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/path.dsv\n'}
+[5.043515] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.bash\n'}
+[5.043596] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.sh\n'}
+[5.043674] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.zsh\n'}
+[5.043752] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.dsv\n'}
+[5.043808] (auv_description) StdoutLine: {'line': b'-- Symlinking: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/package.dsv\n'}
+[5.051799] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/packages/auv_description\n'}
+[5.052016] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.052238] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.052435] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig.cmake\n'}
+[5.052547] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig-version.cmake\n'}
+[5.052655] (auv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/package.xml\n'}
+[5.052775] (auv_description) StdoutLine: {'line': b'-- Installing: /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/libsimple_buoyancy.so\n'}
+[5.054484] (auv_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sangregorioquimpo/auve2_ws/install/auv_description/lib/libsimple_buoyancy.so" to ""\n'}
+[5.054552] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/wasd_body_thrust_pluginTargetsExport.cmake\n'}
+[5.054600] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/wasd_body_thrust_pluginTargetsExport-noconfig.cmake\n'}
+[5.054656] (auv_description) StdoutLine: {'line': b'-- Installing: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/simple_buoyancyTargetsExport.cmake\n'}
+[5.054736] (auv_description) StdoutLine: {'line': b'-- Installing: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/simple_buoyancyTargetsExport-noconfig.cmake\n'}
+[5.056412] (auv_description) CommandEnded: {'returncode': 0}
+[5.066583] (auv_description) JobEnded: {'identifier': 'auv_description', 'rc': 0}
+[5.067373] (-) EventReactorShutdown: {}
