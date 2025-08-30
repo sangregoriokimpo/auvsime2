@@ -1,0 +1,1 @@
+/home/sangregorioquimpo/auve2_ws/src/auv_description/launch/auv_camera_thrust_test_water.launch.py

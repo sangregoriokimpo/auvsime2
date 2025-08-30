@@ -7,6 +7,10 @@ To launch
 ros2 launch auv_description cube_thrust_test.launch.py
 ```
 
+```
+ros2 launch auv_description cube_thrust_test_water.launch.py
+```
+
 To activate teleoperation
 
 ```
@@ -24,3 +28,24 @@ ros2 run auv_description wasd_teleop.py   --ros-args     -p force_topic:=/auve1/
 ```
 ros2 run auv_description wasd_teleop.py   --ros-args     -p force_topic:=/auve1/force_body     -p force:=500.0     -p decay:=1.0     -p rate_hz:=1200000000.0
 ```
+
+To launch auv.urdf
+
+```
+ros2 launch auv_description testing.launch.py
+
+```
+
+Activate camera bridge
+
+```
+ros2 run ros_gz_bridge parameter_bridge   /cube/image_raw@sensor_msgs/msg/Image@gz.msgs.Image   /cube/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo   --ros-args -r /cube/image_raw:=/camera/image_raw -r /cube/camera_info:=/camera/camera_info
+```
+
+Show camera feed
+
+```
+ros2 run image_tools showimage -r image:=/camera/image_raw
+```
+
+Activate teleop using the previous commands
