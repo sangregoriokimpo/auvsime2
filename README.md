@@ -49,3 +49,13 @@ ros2 run image_tools showimage -r image:=/camera/image_raw
 ```
 
 Activate teleop using the previous commands
+
+To test lidar
+
+```
+ros2 launch auv_description view_lidar.launch.py
+```
+
+Rviz will open up automatically, set fixed frame to auv/cube_link/lidar_link_sensor. Add pointcloud2 by topic, and set topic to scan/points.
+
+Teleoperate using previous commands. 

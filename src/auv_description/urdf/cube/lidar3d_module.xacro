@@ -1,28 +1,21 @@
 <?xml version="1.0"?>
 <robot name="lidar3d_module" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <!-- 3D LiDAR using Gazebo Harmonic gpu_lidar (Ogre2).
-       Publishes gz.msgs.PointCloudPacked -> bridge to sensor_msgs/PointCloud2.
-
-       Params:
-         parent, link_name
-         mount_xyz, mount_rpy        (pose of lidar link in parent)
-         radius, length, mass        (visual/collision + inertial)
-         topic                       (GZ transport topic, e.g., /cube/points)
-         update_rate                 (Hz)
-         range_min, range_max
-         h_samples, h_min, h_max     (horizontal)
-         v_samples, v_min, v_max     (vertical)
+  <!-- 3D LiDAR (gpu_lidar) producing a point cloud.
+       Defaults match the tutorial's 3D lidar (VLP-32-like) vertical span.
+       Bridge with:
+         /scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked
   -->
   <xacro:macro name="lidar3d_module"
                params="parent link_name
-                       mount_xyz mount_rpy
-                       radius length mass
-                       topic update_rate
-                       range_min range_max
-                       h_samples h_min h_max
-                       v_samples v_min v_max">
+                       mount_xyz:='0.55 0 0.2' mount_rpy:='0 0 0'
+                       radius:='0.05' length:='0.10' mass:='0.25'
+                       topic:='/lidar/points' update_rate:='10'
+                       range_min:='0.2' range_max:='50.0'
+                       h_samples:='1024' h_min:='-3.14159' h_max:='3.14159'
+                       v_samples:='32'   v_min:='-0.5353'  v_max:='0.1862'">
 
+    <!-- Body -->
     <link name="${link_name}">
       <visual>
         <geometry><cylinder radius="${radius}" length="${length}"/></geometry>
@@ -43,7 +36,7 @@
       <origin xyz="${mount_xyz}" rpy="${mount_rpy}"/>
     </joint>
 
-    <!-- Gazebo 3D LiDAR -->
+    <!-- Gazebo Harmonic 3D LiDAR -->
     <gazebo reference="${link_name}">
       <sensor name="${link_name}_sensor" type="gpu_lidar">
         <always_on>true</always_on>
@@ -70,7 +63,7 @@
           </range>
         </lidar>
 
-        <!-- Gazebo Transport topic -->
+        <!-- Gazebo Transport point cloud topic (per tutorial: /scan/points) -->
         <topic>${topic}</topic>
       </sensor>
     </gazebo>

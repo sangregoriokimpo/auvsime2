@@ -1,0 +1,29 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Lidar
+      Enabled: true
+      Topic:
+        Value: /scan/points
+      Queue Size: 10
+      Style: Points
+      Size (Pixels): 2
+      Alpha: 1
+      Color Transformer: Intensity
+      Use Fixed Frame: true
+  Global Options:
+    Fixed Frame: cube_link          # change to your base if different
+  Tools:
+    - Class: rviz_default_plugins/Interact
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit

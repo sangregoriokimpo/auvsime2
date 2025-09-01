@@ -1,0 +1,305 @@
+[0.015s] Invoking command in '/home/sangregorioquimpo/auve2_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sangregorioquimpo/auve2_ws/src/auv_description -DCMAKE_INSTALL_PREFIX=/home/sangregorioquimpo/auve2_ws/install/auv_description
+[0.034s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.294s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.326s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.548s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.573s] -- Looking for gz-sim8 -- found version 8.9.0
+[0.578s] -- Searching for dependencies of gz-sim8
+[0.578s] -- Looking for sdformat14 -- found version 14.7.0
+[0.578s] -- Searching for dependencies of sdformat14
+[0.584s] -- Checking for module 'tinyxml2'
+[0.601s] --   Found tinyxml2, version 10.0.0
+[0.647s] -- Looking for gz-math7 -- found version 7.5.2
+[0.647s] -- Searching for dependencies of gz-math7
+[0.647s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.647s] -- Searching for dependencies of gz-utils2
+[0.648s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.648s] -- Searching for dependencies of gz-utils2
+[0.649s] -- Searching for <gz-utils2> component [cli]
+[0.649s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.649s] -- Searching for dependencies of gz-utils2-cli
+[0.650s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.650s] -- Searching for dependencies of gz-plugin2
+[0.651s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.651s] -- Searching for <gz-plugin2> component [loader]
+[0.652s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[0.652s] -- Searching for dependencies of gz-plugin2-loader
+[0.652s] -- Searching for <gz-plugin2> component [register]
+[0.652s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[0.653s] -- Searching for dependencies of gz-plugin2-register
+[0.653s] -- Looking for gz-transport13 -- found version 13.4.1
+[0.653s] -- Searching for dependencies of gz-transport13
+[0.695s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.701s] -- Checking for module 'libzmq >= 4'
+[0.722s] --   Found libzmq, version 4.3.5
+[0.788s] -- Checking for module 'uuid'
+[0.811s] --   Found uuid, version 2.39.3
+[0.869s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.869s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.869s] -- Searching for dependencies of gz-msgs10
+[0.908s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.909s] -- Looking for gz-math7 -- found version 7.5.2
+[0.921s] -- Searching for <gz-transport13> component [log]
+[0.922s] -- Looking for gz-transport13-log -- found version 13.4.1
+[0.922s] -- Searching for dependencies of gz-transport13-log
+[0.922s] -- Searching for <gz-transport13> component [parameters]
+[0.923s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[0.923s] -- Searching for dependencies of gz-transport13-parameters
+[0.924s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.925s] -- Looking for gz-common5 -- found version 5.7.1
+[0.925s] -- Searching for dependencies of gz-common5
+[0.925s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.926s] -- Looking for dlfcn.h - found
+[0.926s] -- Looking for libdl - found
+[0.938s] -- Searching for <gz-common5> component [av]
+[0.938s] -- Looking for gz-common5-av -- found version 5.7.1
+[0.939s] -- Searching for dependencies of gz-common5-av
+[0.946s] -- Checking for module 'libswscale'
+[0.970s] --   Found libswscale, version 7.5.100
+[1.042s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.067s] --   Found libavdevice, version 60.3.100
+[1.169s] -- Checking for module 'libavformat'
+[1.198s] --   Found libavformat, version 60.16.100
+[1.272s] -- Checking for module 'libavcodec'
+[1.301s] --   Found libavcodec, version 60.31.102
+[1.379s] -- Checking for module 'libavutil'
+[1.403s] --   Found libavutil, version 58.29.100
+[1.466s] -- Searching for <gz-common5> component [events]
+[1.466s] -- Looking for gz-common5-events -- found version 5.7.1
+[1.467s] -- Searching for dependencies of gz-common5-events
+[1.467s] -- Looking for gz-math7 -- found version 7.5.2
+[1.468s] -- Searching for <gz-common5> component [graphics]
+[1.468s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[1.468s] -- Searching for dependencies of gz-common5-graphics
+[1.469s] -- Looking for gz-math7 -- found version 7.5.2
+[1.472s] -- Searching for <gz-common5> component [io]
+[1.473s] -- Looking for gz-common5-io -- found version 5.7.1
+[1.473s] -- Searching for dependencies of gz-common5-io
+[1.474s] -- Searching for <gz-common5> component [profiler]
+[1.475s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[1.475s] -- Searching for dependencies of gz-common5-profiler
+[1.477s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[1.477s] -- Searching for dependencies of gz-fuel_tools9
+[1.574s] -- Checking for module 'jsoncpp'
+[1.609s] --   Found jsoncpp, version 1.9.5
+[1.716s] -- Checking for module 'yaml-0.1'
+[1.747s] --   Found yaml-0.1, version 0.2.5
+[1.823s] -- Checking for module 'libzip'
+[1.853s] --   Found libzip, version 1.7.3
+[1.915s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.916s] -- Looking for gz-common5 -- found version 5.7.1
+[1.916s] -- Searching for dependencies of gz-common5
+[1.916s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.917s] -- Looking for dlfcn.h - found
+[1.917s] -- Looking for libdl - found
+[1.926s] -- Searching for <gz-common5> component [testing]
+[1.927s] -- Looking for gz-common5-testing -- found version 5.7.1
+[1.927s] -- Searching for dependencies of gz-common5-testing
+[1.928s] -- Looking for gz-math7 -- found version 7.5.2
+[1.929s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.930s] -- Looking for gz-gui8 -- found version 8.4.0
+[1.930s] -- Searching for dependencies of gz-gui8
+[1.995s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.995s] -- Looking for gz-math7 -- found version 7.5.2
+[1.996s] -- Looking for gz-common5 -- found version 5.7.1
+[1.997s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.998s] -- Looking for gz-transport13 -- found version 13.4.1
+[1.999s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.999s] -- Searching for dependencies of gz-rendering8
+[2.000s] -- Looking for gz-math7 -- found version 7.5.2
+[2.000s] -- Searching for dependencies of gz-math7
+[2.000s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.001s] -- Searching for <gz-math7> component [eigen3]
+[2.001s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[2.002s] -- Searching for dependencies of gz-math7-eigen3
+[2.006s] -- Looking for gz-common5 -- found version 5.7.1
+[2.006s] -- Searching for dependencies of gz-common5
+[2.007s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.007s] -- Looking for dlfcn.h - found
+[2.007s] -- Looking for libdl - found
+[2.018s] -- Searching for <gz-common5> component [graphics]
+[2.018s] -- Searching for <gz-common5> component [events]
+[2.019s] -- Searching for <gz-common5> component [geospatial]
+[2.019s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[2.019s] -- Searching for dependencies of gz-common5-geospatial
+[2.019s] -- Looking for gz-math7 -- found version 7.5.2
+[2.021s] -- Looking for gz-common5 -- found version 5.7.1
+[2.023s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.023s] -- Searching for dependencies of gz-plugin2
+[2.024s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.024s] -- Searching for <gz-plugin2> component [all]
+[2.025s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[2.026s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.027s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.033s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.062s] -- Looking for gz-physics7 -- found version 7.5.0
+[2.063s] -- Searching for dependencies of gz-physics7
+[2.063s] -- Looking for gz-common5 -- found version 5.7.1
+[2.064s] -- Looking for gz-math7 -- found version 7.5.2
+[2.065s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.065s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.067s] -- Searching for <gz-physics7> component [heightmap]
+[2.068s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[2.068s] -- Searching for dependencies of gz-physics7-heightmap
+[2.069s] -- Looking for gz-common5 -- found version 5.7.1
+[2.069s] -- Searching for <gz-physics7> component [mesh]
+[2.070s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[2.070s] -- Searching for dependencies of gz-physics7-mesh
+[2.071s] -- Looking for gz-common5 -- found version 5.7.1
+[2.072s] -- Searching for <gz-physics7> component [sdf]
+[2.073s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[2.073s] -- Searching for dependencies of gz-physics7-sdf
+[2.074s] -- Looking for sdformat14 -- found version 14.7.0
+[2.075s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.076s] -- Searching for dependencies of gz-sensors8
+[2.121s] -- Looking for gz-math7 -- found version 7.5.2
+[2.122s] -- Looking for gz-common5 -- found version 5.7.1
+[2.122s] -- Looking for gz-transport13 -- found version 13.4.1
+[2.123s] -- Looking for gz-rendering8 -- found version 8.2.2
+[2.124s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.124s] -- Looking for sdformat14 -- found version 14.7.0
+[2.125s] -- Searching for <gz-sensors8> component [air_pressure]
+[2.126s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[2.126s] -- Searching for dependencies of gz-sensors8-air_pressure
+[2.127s] -- Searching for <gz-sensors8> component [air_speed]
+[2.128s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[2.128s] -- Searching for dependencies of gz-sensors8-air_speed
+[2.129s] -- Searching for <gz-sensors8> component [altimeter]
+[2.129s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[2.130s] -- Searching for dependencies of gz-sensors8-altimeter
+[2.130s] -- Searching for <gz-sensors8> component [imu]
+[2.131s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[2.131s] -- Searching for dependencies of gz-sensors8-imu
+[2.132s] -- Searching for <gz-sensors8> component [force_torque]
+[2.132s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[2.132s] -- Searching for dependencies of gz-sensors8-force_torque
+[2.133s] -- Searching for <gz-sensors8> component [logical_camera]
+[2.134s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[2.134s] -- Searching for dependencies of gz-sensors8-logical_camera
+[2.135s] -- Searching for <gz-sensors8> component [magnetometer]
+[2.135s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[2.136s] -- Searching for dependencies of gz-sensors8-magnetometer
+[2.136s] -- Searching for <gz-sensors8> component [navsat]
+[2.137s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[2.137s] -- Searching for dependencies of gz-sensors8-navsat
+[2.138s] -- Searching for <gz-sensors8> component [dvl]
+[2.139s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[2.139s] -- Searching for dependencies of gz-sensors8-dvl
+[2.140s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.140s] -- Searching for dependencies of gz-sensors8
+[2.183s] -- Looking for gz-math7 -- found version 7.5.2
+[2.183s] -- Looking for gz-common5 -- found version 5.7.1
+[2.184s] -- Looking for gz-transport13 -- found version 13.4.1
+[2.185s] -- Looking for gz-rendering8 -- found version 8.2.2
+[2.185s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.186s] -- Looking for sdformat14 -- found version 14.7.0
+[2.186s] -- Searching for <gz-sensors8> component [rendering]
+[2.187s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[2.187s] -- Searching for dependencies of gz-sensors8-rendering
+[2.189s] -- Searching for <gz-sensors8> component [rendering]
+[2.189s] -- Searching for <gz-sensors8> component [lidar]
+[2.189s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[2.190s] -- Searching for dependencies of gz-sensors8-lidar
+[2.190s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.191s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[2.192s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[2.192s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[2.193s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.193s] -- Searching for <gz-sensors8> component [camera]
+[2.194s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[2.194s] -- Searching for dependencies of gz-sensors8-camera
+[2.195s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.196s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[2.196s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[2.197s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[2.197s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[2.198s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[2.198s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[2.199s] -- Searching for <gz-sensors8> component [depth_camera]
+[2.200s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[2.200s] -- Searching for dependencies of gz-sensors8-depth_camera
+[2.201s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.201s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[2.202s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[2.202s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[2.203s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.204s] -- Searching for <gz-sensors8> component [thermal_camera]
+[2.205s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[2.205s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[2.206s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.208s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[2.208s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[2.209s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[2.210s] -- Looking for gz-rendering8 -- found version 8.2.2
+[2.211s] -- Looking for gz-math7 -- found version 7.5.2
+[2.211s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.250s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.251s] -- Looking for gz-math7 -- found version 7.5.2
+[2.256s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.389s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.389s] -- Configured cppcheck include dirs: 
+[2.389s] -- Configured cppcheck exclude dirs and/or files: 
+[2.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.390s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.391s] -- Added test 'lint_cmake' to check CMake code style
+[2.391s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.394s] -- Added test 'uncrustify' to check C / C++ code style
+[2.394s] -- Configured uncrustify additional arguments: 
+[2.394s] -- Added test 'xmllint' to check XML markup files
+[2.397s] -- Configuring done (2.4s)
+[2.440s] -- Generating done (0.0s)
+[2.448s] -- Build files have been written to: /home/sangregorioquimpo/auve2_ws/build/auv_description
+[2.463s] Invoked command in '/home/sangregorioquimpo/auve2_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sangregorioquimpo/auve2_ws/src/auv_description -DCMAKE_INSTALL_PREFIX=/home/sangregorioquimpo/auve2_ws/install/auv_description
+[2.465s] Invoking command in '/home/sangregorioquimpo/auve2_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sangregorioquimpo/auve2_ws/build/auv_description -- -j16 -l16
+[2.561s] [ 50%] Built target simple_buoyancy
+[2.565s] [100%] Built target wasd_body_thrust_plugin
+[2.582s] Invoked command in '/home/sangregorioquimpo/auve2_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sangregorioquimpo/auve2_ws/build/auv_description -- -j16 -l16
+[2.598s] Invoking command in '/home/sangregorioquimpo/auve2_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sangregorioquimpo/auve2_ws/build/auv_description
+[2.609s] -- Install configuration: ""
+[2.609s] -- Execute custom install script
+[2.610s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/auv_description/wasd_teleop.py
+[2.610s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/auv.urdf
+[2.610s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/camera_module.xacro
+[2.610s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/cube.urdf
+[2.610s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/cube_link.xacro
+[2.611s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/lidar3d_module.xacro
+[2.611s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/urdf/cube/plugins.xacro
+[2.611s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test.launch.py
+[2.611s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test_water.launch.py
+[2.611s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/cube_thrust_test_water_camera.launch.py
+[2.611s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/testing.launch.py
+[2.611s] -- Symlinking: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/launch/view_lidar.lauch.py
+[2.625s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/test_world.sdf
+[2.625s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/worlds/water_world.sdf
+[2.625s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.sh
+[2.625s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/library_path.dsv
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/parent_prefix_path/auv_description
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.sh
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.dsv
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/path.sh
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/environment/path.dsv
+[2.626s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.bash
+[2.627s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.sh
+[2.627s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.zsh
+[2.627s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/local_setup.dsv
+[2.627s] -- Symlinking: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/package.dsv
+[2.640s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/ament_index/resource_index/packages/auv_description
+[2.641s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/ament_cmake_export_targets-extras.cmake
+[2.641s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/ament_cmake_export_libraries-extras.cmake
+[2.641s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig.cmake
+[2.641s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig-version.cmake
+[2.641s] -- Up-to-date symlink: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/package.xml
+[2.641s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/lib/libsimple_buoyancy.so
+[2.641s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/wasd_body_thrust_pluginTargetsExport.cmake
+[2.642s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/wasd_body_thrust_pluginTargetsExport-noconfig.cmake
+[2.642s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/simple_buoyancyTargetsExport.cmake
+[2.642s] -- Up-to-date: /home/sangregorioquimpo/auve2_ws/install/auv_description/share/auv_description/cmake/simple_buoyancyTargetsExport-noconfig.cmake
+[2.644s] Invoked command in '/home/sangregorioquimpo/auve2_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sangregorioquimpo/auve2_ws/build/auv_description

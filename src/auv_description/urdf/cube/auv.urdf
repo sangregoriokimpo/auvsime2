@@ -5,7 +5,7 @@
   <xacro:property name="cube_size_x" value="1.0"/>
   <xacro:property name="cube_size_y" value="1.0"/>
   <xacro:property name="cube_size_z" value="1.0"/>
-  <xacro:property name="cube_mass"   value="999.9"/>
+  <xacro:property name="cube_mass"   value="989.9"/>
 
   <!-- Camera parameters -->
   <xacro:property name="cam_box"        value="0.1 0.1 0.1"/>   <!-- visual box for camera_link -->
@@ -57,16 +57,9 @@
   
   <!-- 3D LiDAR pointing +X -->
   <xacro:lidar3d_module
-    parent="cube_link"
-    link_name="lidar_link"
-    mount_xyz="0.55 0 0.2"
-    mount_rpy="0 0 0"
-    radius="0.05" length="0.1" mass="0.25"
-    topic="/cube/points"
-    update_rate="10"
-    range_min="0.2" range_max="50.0"
-    h_samples="1024" h_min="-3.14159" h_max="3.14159"
-    v_samples="32"   v_min="-0.5"     v_max="0.5"/>
+  parent="cube_link"
+  link_name="lidar_link"
+  topic="/lidar/points"/>
 
   <!-- Plugins (buoyancy + WASD) -->
   <xacro:buoyancy_plugin
