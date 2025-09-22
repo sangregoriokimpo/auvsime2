@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sangregorioquimpo/auve2_ws/build/auv_description/libwasd_body_thrust_plugin.so" "/home/sangregorioquimpo/auve2_ws/build/auv_description/libbuoyancy_runtime.so" "TARGETS" "wasd_body_thrust_plugin" "buoyancy_runtime" "LIBRARY_DESTINATION" "lib")

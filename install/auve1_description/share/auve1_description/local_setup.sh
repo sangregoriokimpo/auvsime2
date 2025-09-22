@@ -1,1 +1,0 @@
-/home/sangregorioquimpo/auve2_ws/build/auve1_description/ament_cmake_environment_hooks/local_setup.sh

@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -562,9 +562,6 @@ geometry_msgs_DIR:PATH=/opt/ros/jazzy/share/geometry_msgs/cmake
 //The directory containing a CMake configuration file for gz-cmake3.
 gz-cmake3_DIR:PATH=/opt/ros/jazzy/opt/gz_cmake_vendor/share/cmake/gz-cmake3
 
-//The directory containing a CMake configuration file for gz-cmake4.
-gz-cmake4_DIR:PATH=/usr/share/cmake/gz-cmake4
-
 //The directory containing a CMake configuration file for gz-common5-av.
 gz-common5-av_DIR:PATH=/opt/ros/jazzy/opt/gz_common_vendor/lib/cmake/gz-common5-av
 
@@ -600,9 +597,6 @@ gz-math7-eigen3_DIR:PATH=/opt/ros/jazzy/opt/gz_math_vendor/lib/cmake/gz-math7-ei
 
 //The directory containing a CMake configuration file for gz-math7.
 gz-math7_DIR:PATH=/opt/ros/jazzy/opt/gz_math_vendor/lib/cmake/gz-math7
-
-//The directory containing a CMake configuration file for gz-math8.
-gz-math8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math8
 
 //The directory containing a CMake configuration file for gz-msgs10.
 gz-msgs10_DIR:PATH=/opt/ros/jazzy/opt/gz_msgs_vendor/lib/cmake/gz-msgs10
@@ -711,9 +705,6 @@ gz-utils2-cli_DIR:PATH=/opt/ros/jazzy/opt/gz_utils_vendor/lib/cmake/gz-utils2-cl
 
 //The directory containing a CMake configuration file for gz-utils2.
 gz-utils2_DIR:PATH=/opt/ros/jazzy/opt/gz_utils_vendor/lib/cmake/gz-utils2
-
-//The directory containing a CMake configuration file for gz-utils3.
-gz-utils3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils3
 
 //The directory containing a CMake configuration file for jsoncpp.
 jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
@@ -873,9 +864,6 @@ type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_inter
 
 //Dependencies for the target
 wasd_body_thrust_plugin_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;
-
-//Dependencies for the target
-wasd_body_wrench_plugin_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -1614,8 +1602,6 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 __pkg_config_arguments_AVCODEC:INTERNAL=libavcodec
 __pkg_config_arguments_AVDEVICE:INTERNAL=libavdevice >= 56.4.100
 __pkg_config_arguments_AVFORMAT:INTERNAL=libavformat

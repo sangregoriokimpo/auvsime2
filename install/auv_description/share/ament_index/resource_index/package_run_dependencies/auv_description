@@ -1,1 +1,1 @@
-/home/sangregorioquimpo/auve2_ws/build/auv_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/auv_description
+rclcpp;geometry_msgs;gz-sim8;gz-plugin2;gz-math7;ros_gz_sim;robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;rviz2;ament_lint_auto;ament_lint_common

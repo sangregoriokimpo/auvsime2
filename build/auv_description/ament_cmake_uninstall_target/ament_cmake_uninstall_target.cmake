@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/sangregorioquimpo/auve2_ws/build/auv_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

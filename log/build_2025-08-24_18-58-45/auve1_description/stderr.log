@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:73 (file):
-  file INSTALL cannot find
-  "/home/sangregorioquimpo/auve2_ws/src/auv_description/launch": No such file
-  or directory.
-
-[0m
